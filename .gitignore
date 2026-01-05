@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+
+# Conda
+.env
+.envrc
+
+# Data lake (do not commit generated data)
+data_lake/
+
+# OS
+.DS_Store
+

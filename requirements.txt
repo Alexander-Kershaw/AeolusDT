@@ -1,0 +1,9 @@
+numpy>=1.26
+pandas>=2.2
+matplotlib>=3.8
+pydantic>=2.7
+pyyaml>=6.0.1
+tqdm>=4.66
+rich>=13.7
+sqlalchemy>=2.0
+psycopg2-binary>=2.9
