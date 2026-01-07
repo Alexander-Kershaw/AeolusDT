@@ -80,21 +80,25 @@ State for incremental processing is stored in data_lake/_state/
 ***
 ***
 
+```text
 AeolusDT/
 ├── src/
-│ └── wind_farm_twin/
-│ ├── sim/ # Telemetry simulation
-│ ├── models/ # Wind, wake, turbine models
-│ ├── io/ # Schemas, writers, state
-│ ├── pipelines/ # Silver / Gold jobs
-│ └── main.py
+│   └── wind_farm_twin/
+│       ├── sim/            # Telemetry simulation
+│       ├── models/         # Wind, wake, turbine models
+│       ├── io/             # Schemas, writers, state handling
+│       ├── pipelines/      # Silver / Gold data jobs
+│       └── main.py
+│
 ├── data_lake/
-│ ├── bronze/
-│ ├── silver/
-│ ├── gold/
-│ └── _state/
+│   ├── bronze/
+│   ├── silver/
+│   ├── gold/
+│   └── _state/
+│
 ├── environment.yml
 └── README.md
+```
 
 
 ***
