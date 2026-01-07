@@ -5,7 +5,7 @@
 ***
 
 AeolusDT is an end-to-end wind farm digital twin implemented in Python, combining
-physics-integrated wind field simulation with a modern data engineering (Bronze / Silver / Gold) lakehouse architecture**.
+physics-integrated wind field simulation with a modern data engineering (Bronze / Silver / Gold) lakehouse architecture.
 
 The project simulates wind farm telemetry, processes it incrementally, and produces
 analytics-ready KPIs and visualizations that enable scenario comparison, such as evaluating the impact
