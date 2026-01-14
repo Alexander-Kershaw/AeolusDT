@@ -50,7 +50,7 @@ of different wake model assumptions on energy production.
 ## Architecture Overview
 ***
 ***
-
+```text
 Simulation
 |
 v
@@ -70,6 +70,7 @@ Gold
 ├── hourly_energy (per turbine)
 └── farm_kpis (per farm)
 
+```
 ***
 
 State for incremental processing is stored in data_lake/_state/
